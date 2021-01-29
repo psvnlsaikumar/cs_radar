@@ -6,7 +6,7 @@ let processIsLoaded = false;
 let cheatRunning = false;
 
 const processName = "csgo.exe";
-//Runs cheat code itself
+
 const mainLoop = setInterval(async () => {
     //Process is loaded, run code
     if (!cheatRunning && processIsLoaded) {
